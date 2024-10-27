@@ -38,11 +38,11 @@ A Python-based Intrusion Detection System (IDS) that monitors network traffic fo
    This will start the IDS, which will begin monitoring network traffic for potential threats.
 
 3. **Simulate Attacks for Testing:**
-**Port Scanning:** Use a tool like Nmap to simulate a port scan:
+- **Port Scanning:** Use a tool like Nmap to simulate a port scan:
    ```bash
    nmap -p 1-1000 <your_target_ip>
    ```
-**SYN Flooding:** Use a tool like Hping3 to simulate a SYN flood:
+* **SYN Flooding:** Use a tool like Hping3 to simulate a SYN flood:
    ```bash
    hping3 -S -p 80 --flood <your_target_ip>
    ```
